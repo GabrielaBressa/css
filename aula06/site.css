@@ -3,7 +3,7 @@
     background-color: #e6dcf877;
 }
 
-div {
+#inline .div {
     width: 100;
     width: 50px;
     border: dotted 1px;
@@ -13,9 +13,9 @@ div {
 .img {
     width: 100;
     width: 50px;
-    border: dotted 1px;
-    margin: 0.5em  
-}       
+    border: 10px;
+    margin: 0.5em
+}
 
 ul {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -35,4 +35,22 @@ p {
 
 h1 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#inline-flex .img {
+    display: inline-flex;
+    align-items: center;
+    border: 7px cornflowerblue;
+    width: auto;
+    height: auto;
+    background-color: #ccd2f0;
+}
+
+#inline-flex .image {
+    display: inline-flex;
+    align-items: center;
+    border: 7px cornflowerblue;
+    width: auto;
+    height: auto;
+    background-color: #ccd2f0;
 }
